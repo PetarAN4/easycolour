@@ -57,17 +57,17 @@ func Blue(format format, s string) string {
 	return fmt.Sprintf("%s%s%s%s%s%s", escape, format, blue, s, escape, end)
 }
 
-//Magenta returns s in blue colour
+//Magenta returns s in magenta colour
 func Magenta(format format, s string) string {
 	return fmt.Sprintf("%s%s%s%s%s%s", escape, format, magenta, s, escape, end)
 }
 
-//Cyan returns s in blue colour
+//Cyan returns s in cyan colour
 func Cyan(format format, s string) string {
 	return fmt.Sprintf("%s%s%s%s%s%s", escape, format, cyan, s, escape, end)
 }
 
-//White returns s in blue colour
+//White returns s in white colour
 func White(format format, s string) string {
 	return fmt.Sprintf("%s%s%s%s%s%s", escape, format, white, s, escape, end)
 }
